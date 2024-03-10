@@ -1,0 +1,96 @@
+/* product-add.css */
+
+/* Center the container and set its width */
+.container {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0 10px 0 5px;
+}
+
+/* Style file input */
+.file-upload-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.file-upload-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Hide the original file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Add border to the label */
+.file-upload-btn {
+    border: 2px solid #007bff;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+/* Change label border color on hover */
+.file-upload-btn:hover {
+    border-color: #0056b3;
+}
+
+
+/* Style button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style error message */
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Style success message */
+.success-message {
+    color: green;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+/* dashboard.css */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+}
+.add-button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.logout {
+margin-top: 5px;
+}
